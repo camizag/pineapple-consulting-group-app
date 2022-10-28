@@ -1,1 +1,0 @@
-# Pineapple Consulting Group
