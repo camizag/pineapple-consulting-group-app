@@ -1,7 +1,48 @@
 * {
     box-sizing: border-box;
   }
+
+  /******** Fonts ********/
+  @font-face {
+    font-family: "Avenir";
+    src: url(/public/Fonts/Avenir.ttc) format("truetype");
+  }
   
+  @font-face {
+    font-family: "Helvetica";
+    src: url(/public/Fonts/Helvetica.ttc) format("truetype");
+  }
+  
+  @font-face {
+    font-family: "HelveticaNeue";
+    src: url(/public/Fonts/HelveticaNeue.ttc) format("truetype");
+  }
+  
+  @font-face {
+    font-family: "MyriadPro-Regular";
+    src: url(/public/Fonts/MyriadPro-Regular.otf) format("opentype");
+  }
+
+  @font-face {
+    font-family: "NeuzeitGrotesk-Light";
+    src: url(/public/Fonts/DIN\ 30640\ Std\ Neuzeit\ Grotesk\ Light.otf) format("opentype");
+  }
+
+  @font-face {
+    font-family: "NeuzeitGrotesk-Black";
+    src: url(/public/Fonts/Neuzeit\ Grotesk\ Cond\ W01\ Black.otf) format("opentype");
+  }
+
+  @font-face {
+    font-family: "NeuzeitGrotesk-Regular";
+    src: url(/public/Fonts/Neuzeit\ Grotesk\ W01\ Regular.otf) format("opentype");
+  }
+
+  @font-face {
+    font-family: "NeuzeitSBook";
+    src: url(/public/Fonts/NeuzeitSBook.ttf) format("truetype");
+  }
+
   body {
     margin: 0;
   }
@@ -46,4 +87,4 @@
     align-items: center;
     padding: .25rem;
   }
-  
+
