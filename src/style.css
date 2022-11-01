@@ -23,8 +23,6 @@
     height: 5rem;
   }
   
-
-
   .title-logo {
     position: fixed;
     height: auto;
@@ -49,10 +47,3 @@
     padding: .25rem;
   }
   
-  .nav li.active {
-    background-color: #555;
-  }
-  
-  /* .nav li:hover {
-    background-color: #777;
-  } */
