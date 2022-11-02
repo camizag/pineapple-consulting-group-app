@@ -11,24 +11,26 @@ export default function Item({item})
             <div className='slider-color'>
                 <h2 className='slider-text'>{item.title}</h2>
 
-                <Button className="CheckButton" //TODO: Align to left
-                    sx={{
-                    color: "#ffffff",
-                    backgroundColor: "#FAC136",
-                    ':hover': {
-                    bgcolor: '#FAC136', 
-                    color: 'white',
-                    }
-                }}
-                variant='contained'>
-                <Link to='/services'  style={{ 
-                    color: 'inherit', 
-                    textDecoration: 'inherit'
-                    }}>
-                MAS INFORMACIÓN 
-                </Link> 
-                </Button>
-
+                <div className='btn-container'>
+                    <Button className="CheckButton" //TODO: Align to left
+                        sx={{
+                        color: "#ffffff",
+                        backgroundColor: "#FAC136",
+                        ':hover': {
+                        bgcolor: '#FAC136', 
+                        color: 'white',
+                        }
+                    }}
+                    variant='contained'>
+                        
+                    <Link to='/services'  style={{ 
+                        color: 'inherit', 
+                        textDecoration: 'inherit'
+                        }}>
+                    MAS INFORMACIÓN 
+                    </Link> 
+                    </Button>
+                </div>
             </div>
         </div>
     )
