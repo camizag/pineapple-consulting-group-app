@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-  }
-
   /******** Fonts ********/
   @font-face {
     font-family: "Avenir";
@@ -43,12 +39,19 @@
     src: url(/public/Fonts/NeuzeitSBook.ttf) format("truetype");
   }
 
+ /******** General ********/
+  * {
+    box-sizing: border-box;
+  }
+
   body {
     margin: 0;
+    padding: 0;
+    height: 100vh;
   }
   
   .container {
-    margin: 1rem;
+    margin: 0;
     text-align: center;
   }
   
@@ -86,5 +89,44 @@
     display: flex;
     align-items: center;
     padding: .25rem;
+  }
+
+  /******** Carousel ********/
+  .slider-container {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 85vh;
+    overflow: auto;
+    
+  }
+
+  .slider-img {
+    width: 60%;
+    height: 100%;    
+  }
+
+  .slider-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-items: flex-start;
+  }
+  
+
+  .slider-color {
+    flex-grow: 0;
+    flex-direction: column;
+    width: 40%;
+    align-content: flex-end;  
+    background-color:rgb(41, 101, 41);
+
+}
+
+  .slider-text {
+    font-size: 420%;
+    padding: 3rem;
+    color: white;
+    margin-bottom: 0;
+    text-align: left;
   }
 
