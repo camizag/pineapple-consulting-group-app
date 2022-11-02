@@ -12,7 +12,7 @@ export default function Item({item})
                 <h2 className='slider-text'>{item.title}</h2>
 
                 <div className='btn-container'>
-                    <Button className="CheckButton" //TODO: Align to left
+                    <Button className="CheckButton" 
                         sx={{
                         color: "#ffffff",
                         backgroundColor: "#FAC136",
