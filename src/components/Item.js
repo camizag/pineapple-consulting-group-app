@@ -1,5 +1,5 @@
-import { Button } from '@mui/material'
-
+import { Button } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 export default function Item({item})
 {
@@ -11,17 +11,24 @@ export default function Item({item})
             <div className='slider-color'>
                 <h2 className='slider-text'>{item.title}</h2>
 
-                <Button className="CheckButton" sx={{
+                <Button className="CheckButton" //TODO: Align to left
+                    sx={{
                     color: "#ffffff",
                     backgroundColor: "#fdd835",
                     ':hover': {
-                        bgcolor: '#fdd835', 
-                        color: 'white',
+                    bgcolor: '#fdd835', 
+                    color: 'white',
                     }
                 }}
                 variant='contained'>
-                    MAS INFORMACIÓN 
+                <Link to='/services'  style={{ 
+                    color: 'inherit', 
+                    textDecoration: 'inherit'
+                    }}>
+                MAS INFORMACIÓN 
+                </Link> 
                 </Button>
+
             </div>
         </div>
     )
