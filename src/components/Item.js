@@ -13,8 +13,12 @@ export default function Item({item})
 
                 <Button className="CheckButton" sx={{
                     color: "#ffffff",
-                    backgroundColor: "#fdd835"
-                }} 
+                    backgroundColor: "#fdd835",
+                    ':hover': {
+                        bgcolor: '#fdd835', 
+                        color: 'white',
+                    }
+                }}
                 variant='contained'>
                     MAS INFORMACIÓN 
                 </Button>
