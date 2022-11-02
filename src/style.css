@@ -120,17 +120,15 @@
     flex-grow: 0;
     flex-direction: column;
     width: 40%;
-    align-content: flex-end;  
     background-color:#364A37;
     align-items: left;
 
 }
 
   .slider-text {
+    margin: 3rem;
     font-size: 420%;
-    padding: 3rem;
     color: white;
-    margin-bottom: 0;
     text-align: left;
     
   }
