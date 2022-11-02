@@ -101,6 +101,7 @@
     
   }
 
+  /*** Carousel imgs side ***/
   .slider-img {
     width: 60%;
     height: 100%;    
@@ -113,7 +114,7 @@
     align-items: flex-start;
   }
   
-
+  /*** Carousel text side ***/
   .slider-color {
     flex-grow: 0;
     flex-direction: column;
