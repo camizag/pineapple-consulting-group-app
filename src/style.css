@@ -45,6 +45,7 @@
   }
 
   body {
+    font-family: "NeuzeitGrotesk-Regular";
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -57,7 +58,7 @@
   
   /******** Navbar ********/
   .nav {
-    color: rgb(53, 74, 55);
+    color: 364A37;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -120,7 +121,7 @@
     flex-direction: column;
     width: 40%;
     align-content: flex-end;  
-    background-color:rgb(41, 101, 41);
+    background-color:#364A37;
     align-items: left;
 
 }

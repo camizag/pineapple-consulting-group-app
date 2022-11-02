@@ -14,9 +14,9 @@ export default function Item({item})
                 <Button className="CheckButton" //TODO: Align to left
                     sx={{
                     color: "#ffffff",
-                    backgroundColor: "#fdd835",
+                    backgroundColor: "#FAC136",
                     ':hover': {
-                    bgcolor: '#fdd835', 
+                    bgcolor: '#FAC136', 
                     color: 'white',
                     }
                 }}
