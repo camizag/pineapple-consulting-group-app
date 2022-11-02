@@ -71,6 +71,7 @@
     position: fixed;
     height: auto;
     width: 250px;
+    padding-bottom: 0.3rem;
   }
 
   .nav ul {
@@ -119,6 +120,7 @@
     width: 40%;
     align-content: flex-end;  
     background-color:rgb(41, 101, 41);
+    align-items: left;
 
 }
 
@@ -128,5 +130,6 @@
     color: white;
     margin-bottom: 0;
     text-align: left;
+    
   }
 
