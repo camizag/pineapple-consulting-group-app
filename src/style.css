@@ -159,8 +159,12 @@
   .card-txt-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 6rem;
+
   }
 
-  .card-txt {
-    
+  .card-txt-container h5 {
+    margin: 0.5rem;
   }

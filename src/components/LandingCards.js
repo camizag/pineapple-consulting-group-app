@@ -3,6 +3,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
+import { CardActionArea } from '@mui/material';
 
 
 export default function LandingCards() {
@@ -20,7 +21,7 @@ export default function LandingCards() {
                         alt="green iguana"
                         />
                         <CardContent className='card-txt-container'>
-                        <Typography className='card-txt' gutterBottom variant="h5" component="div">
+                        <Typography className='card-txt' gutterBottom variant="h5">
                             Real State
                         </Typography>
 
@@ -37,7 +38,7 @@ export default function LandingCards() {
                         alt="green iguana"
                         />
                         <CardContent className='card-txt-container'>
-                        <Typography className='card-txt' gutterBottom variant="h5" component="div">
+                        <Typography className='card-txt' gutterBottom variant="h5">
                             Development
                         </Typography>
 
@@ -55,7 +56,7 @@ export default function LandingCards() {
                         />
                         
                         <CardContent className='card-txt-container'>
-                        <Typography className='card-txt' gutterBottom variant="h5" component="div">
+                        <Typography className='card-txt' gutterBottom variant="h5">
                             Consulting for Strategic Business Planning
                         </Typography>
 
@@ -72,7 +73,7 @@ export default function LandingCards() {
                         alt="green iguana"
                         />
                         <CardContent className='card-txt-container'>
-                        <Typography className='card-txt' gutterBottom variant="h5" component="div">
+                        <Typography className='card-txt' gutterBottom variant="h5">
                             Career / Professional Development 
                         </Typography>
 
@@ -89,7 +90,7 @@ export default function LandingCards() {
                         alt="green iguana"
                         />
                         <CardContent className='card-txt-container'>
-                        <Typography className='card-txt' gutterBottom variant="h5" component="div">
+                        <Typography className='card-txt' gutterBottom variant="h5">
                             Non-profit Work
                         </Typography>
 
