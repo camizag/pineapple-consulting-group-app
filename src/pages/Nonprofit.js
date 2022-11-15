@@ -1,9 +1,24 @@
 export default function Nonprofit() {
     return (
         <>
-            <h1 className="nonprofit-title">Non-profit Work</h1>
-            <p className="nonprofit-p">Eu pariatur ea voluptate dolore eu nostrud eiusmod sint eiusmod enim aute do. Labore voluptate non dolor consectetur. Proident magna nostrud do sit non duis duis labore incididunt proident labore. Pariatur tempor fugiat officia ea ex incididunt duis sint eiusmod officia sint. Veniam sint esse et esse deserunt occaecat magna veniam proident quis sit laboris culpa id. Non elit aliqua sit ad officia. Mollit sunt occaecat voluptate elit nisi.</p>
-            <p className="nonprofit-p">Id incididunt labore ex sit ex est occaecat. Aliquip eiusmod mollit ad proident aute exercitation consequat laboris. Aute est eu dolor cillum sint ipsum irure enim magna eiusmod est voluptate. Veniam velit elit veniam duis sit exercitation sunt quis pariatur ex duis est enim.</p>
+            <div className="services-container">
+                <h1 className="services-title">NON-PROFIT WORK</h1>
+
+                <h2 className="services-subtitle">WHAT WE DO? / QUE HACEMOS?</h2>
+                <p className="services-p">BUSCAMOS SIEMPRE APOYAR A LA COMUNIDAD Y A LA GENTE QUE MAS LO NECESITA. ¿QUIERES CAMBIAR EL MUNDO? ¡EMPIEZA POR TU CIUDAD!</p>
+
+                <h2 className="services-subtitle">HOW WE DO IT? / COMO LO HACEMOS?</h2>
+                <p className="services-p">NOS ACERCAMOS A LAS FUNDACIONES QUE MAS APORTAN AL BIEN SOCIAL Y COMÚN Y LOS APOYAMOS CON LOS RECURSOS NECESARIOS PARA QUE SIGAN HACIENDO MÁS POR LA GENTE QUE NO TIENE RECURSOS PARA AFRONTAR UNA VIDA DIGNA.</p>
+
+                <h2 className="services-subtitle">BENEFITS OF NON-PROFIT WORK / BENEFICIOS DEL TRABAJO NON-PROFIT</h2>
+                <p className="services-p">NO HAY SENSACIÓN MÁS SATISFACTORIA QUE LA DE CAMBIAR LA VIDA DE LAS PERSONAS EN FORMA POSITIVA. POR ESTO, SIEMPRE HACEMOS EL COMPROMISO DE APORTAR UN % DE CADA PROYECTO A FINES DE AYUDA</p>
+
+                <h2 className="services-subtitle">CASES OF SUCCESS / CASOS DE ÉXITO</h2>
+                <p className="services-p">PLAYA CARES</p>
+
+                <h2 className="services-subtitle">AFILIATES / AFILIADOS</h2>
+                <p className="services-p">PLAYA CARES</p>
+            </div>
         </>
     
     )
