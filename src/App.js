@@ -1,5 +1,4 @@
 import Navbar from './Navbar';
-import Services from "./pages/Services";
 import LandingPage from "./pages/LandingPage";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -21,7 +20,6 @@ function App() {
         <Routes>
           <Route path='/' element={<LandingPage />} />
 
-          <Route path='/services' element={<Services />} />
           <Route path='/real-state' element={<RealState />} />
           <Route path='/development' element={<Development />} />
           <Route path='/business-planning' element={<BusinessPlanning />} />
