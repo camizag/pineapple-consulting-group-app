@@ -14,7 +14,9 @@ export default function LandingCards() {
             <h1 className="landing-cards-title">Our Services</h1>
             
             <div className='landing-cards-container'>
+                
                 <Card  className="landing-cards">
+                <CardActionArea> 
                 <Link className='navbar-link' to="/real-state">
                         <CardMedia
                         component="img"
@@ -29,9 +31,11 @@ export default function LandingCards() {
                         </Typography>
                         </CardContent>
                 </Link>
+                </CardActionArea>   
                 </Card>
 
                 <Card  className="landing-cards">
+                <CardActionArea>
                 <Link className='navbar-link' to="/development">
                         <CardMedia
                         component="img"
@@ -46,9 +50,11 @@ export default function LandingCards() {
                         </Typography>
                         </CardContent>
                 </Link>
+                </CardActionArea> 
                 </Card>
 
                 <Card className="landing-cards">
+                <CardActionArea> 
                 <Link className='navbar-link' to="/business-planning">
                         <CardMedia
                         component="img"
@@ -63,9 +69,11 @@ export default function LandingCards() {
                         </Typography>
                         </CardContent>
                 </Link>
+                </CardActionArea> 
                 </Card>
 
                 <Card  className="landing-cards">
+                <CardActionArea> 
                 <Link className='navbar-link' to="/professional-development">
                         <CardMedia
                         component="img"
@@ -80,9 +88,11 @@ export default function LandingCards() {
                         </Typography>
                         </CardContent>
                 </Link>
+                </CardActionArea> 
                 </Card>
 
                 <Card  className="landing-cards">
+                <CardActionArea> 
                 <Link className='navbar-link' to="/non-profit">
                         <CardMedia
                         component="img"
@@ -97,9 +107,8 @@ export default function LandingCards() {
                         </Typography>
                         </CardContent>
                 </Link>
+                </CardActionArea> 
                 </Card>
-                
-                
             </div>
         </>
     
