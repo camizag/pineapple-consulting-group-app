@@ -66,10 +66,10 @@
     gap: 2rem;
     padding: 0 3rem;
     height: 5rem;
+    position: sticky;
   }
   
   .title-logo {
-    position: fixed;
     height: auto;
     width: 250px;
     padding-bottom: 0.3rem;
@@ -138,3 +138,23 @@
     margin: 3rem;
   }
 
+  /******** Services Cards ********/
+  .landing-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3rem;
+  }
+
+  .landing-cards {
+    margin: 2rem;
+  }
+
+  .card-txt-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-txt {
+    
+  }
