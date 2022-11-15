@@ -44,7 +44,7 @@ export default function Navbar() {
                             <Link className='navbar-link' to="/development"> Development </Link>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
-                            <Link className='navbar-link' to="/business-planning"> Consulting for Strategic Business Planningt </Link>
+                            <Link className='navbar-link' to="/business-planning"> Consulting for Strategic Business Planning </Link>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
                             <Link className='navbar-link' to="/professional-development"> Career / Professional Development Consulting </Link>
