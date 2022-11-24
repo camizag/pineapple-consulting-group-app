@@ -3,6 +3,8 @@ import Carousel from 'react-material-ui-carousel';
 import Item from '../components/Item';
 import slider from "../components/slider.json"; 
 import LandingCards  from '../components/LandingCards';
+import Footer from "../components/Footer";
+
 
 export default function LandingPage()
 {
@@ -15,6 +17,9 @@ export default function LandingPage()
             </Carousel>
 
             <LandingCards/>
+            
+            <Footer/>
+
         </>
     );
 }
