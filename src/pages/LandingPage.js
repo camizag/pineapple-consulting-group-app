@@ -4,6 +4,7 @@ import Item from '../components/Item';
 import slider from "../components/slider.json"; 
 import LandingCards  from '../components/LandingCards';
 import Footer from "../components/Footer";
+import Accordion from '../components/CompAccordion';
 
 
 export default function LandingPage()
@@ -17,6 +18,8 @@ export default function LandingPage()
             </Carousel>
 
             <LandingCards/>
+
+            <Accordion/>
             
             <Footer/>
 

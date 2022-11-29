@@ -155,11 +155,20 @@
 
   /******** Landing Cards ********/
 
+  .landing-container {
+
+  }
+
+  .landing-title-container {
+    margin: 5rem;
+    margin-bottom: 0;
+  }
+
   .landing-cards-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 1rem;
+    margin: 2rem;
   }
 
   .landing-cards {
@@ -175,9 +184,32 @@
 
   }
 
-  .card-txt-container h5 {
-    margin: 0.5rem;
+  /******** Accordion ********/
+
+  .compaccordion-container {
+    display: flex;
+    flex-direction: row;
+    overflow: none;
   }
+
+  .accordion-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .img-accordion-container {
+    overflow: hidden;
+    background-size: cover;
+  }
+
+  .img-accordion-container img {
+    width: 100%;
+    height: 100%;
+  }
+
 
   /******** Footer ********/
   .footer-container {
@@ -202,8 +234,6 @@
     list-style: none;
     color: white;
   }
-
-  
 
   .footer-section ul {
     padding: 0;
