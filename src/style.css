@@ -206,6 +206,21 @@
     height: fit-content;
   }
 
+  /******** Graph ********/
+  .graph-container {
+    display: flex;
+    height: auto;
+    margin: 4rem;
+    gap: 2rem;
+  }
+
+  .graph-text-container {
+    align-self: stretch;
+  }
+
+  .graph-img-container img {
+    width: 20rem;
+  }
 
   /******** Footer ********/
   .footer-container {

@@ -5,7 +5,7 @@ import slider from "../components/slider.json";
 import LandingCards  from '../components/LandingCards';
 import Footer from "../components/Footer";
 import Accordion from '../components/CompAccordion';
-
+import Chart from '../components/Chart';
 
 export default function LandingPage()
 {
@@ -21,6 +21,8 @@ export default function LandingPage()
 
             <Accordion/>
             
+            <Chart/>
+
             <Footer/>
 
         </>
