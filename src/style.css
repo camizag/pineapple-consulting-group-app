@@ -215,7 +215,9 @@
   }
 
   .graph-text-container {
-    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .graph-img-container img {
