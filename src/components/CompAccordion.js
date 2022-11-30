@@ -15,7 +15,7 @@ export default function CompAccordion() {
         <>
             <div className='compaccordion-container'>
                 <div className='accordion-container'>
-                    <div>
+                    <div className='accordion-text'>
                         <h1>Ipsum amet velit ullamco ipsum incididunt et magna commodo proident aliquip Lorem reprehenderit duis laborum.</h1>
                     </div>
                     <Accordion className='accordions' expanded={expanded === 'panel1'} onChange={handleChange('panel1')} sx={{boxShadow: 0}}>
