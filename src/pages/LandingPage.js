@@ -6,6 +6,7 @@ import LandingCards  from '../components/LandingCards';
 import Footer from "../components/Footer";
 import Accordion from '../components/CompAccordion';
 import Chart from '../components/Chart';
+import TripleDiv from '../components/TripleDiv';
 
 export default function LandingPage()
 {
@@ -22,6 +23,8 @@ export default function LandingPage()
             <Accordion/>
             
             <Chart/>
+            
+            <TripleDiv/>
 
             <Footer/>
 

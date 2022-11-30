@@ -210,8 +210,8 @@
   .graph-container {
     display: flex;
     height: auto;
-    margin: 4rem;
-    gap: 2rem;
+    margin: 6rem;
+    gap: 10rem;
   }
 
   .graph-text-container {
@@ -222,6 +222,31 @@
 
   .graph-img-container img {
     width: 20rem;
+  }
+
+  /******** Triple Div ********/
+
+  .triplediv-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4rem;
+    width: 50%;
+  }
+
+  .img-div {
+    overflow: hidden;
+    background-size:cover;
+  }
+
+  .img-div img {
+    width: 25rem;
   }
 
   /******** Footer ********/
