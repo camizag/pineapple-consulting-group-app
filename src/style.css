@@ -177,7 +177,10 @@
     align-items: center;
     width: 25rem;
     height: 6rem;
+  }
 
+  .landing-title-container p {
+    text-align: left;
   }
 
   /******** Accordion ********/
@@ -194,6 +197,10 @@
     flex-direction: column;
     margin-left: 5rem;
     margin-right: 5rem;
+  }
+
+  .accordion-text {
+    text-align: left;
   }
 
   .img-accordion-container {
@@ -223,10 +230,12 @@
 
   .graph-container h1 {
     color: #FAC136;
+    text-align: left;
   }
 
   .graph-container p {
     color: white;
+    text-align: left;
   }
 
   .graph-img-container img {
@@ -247,15 +256,11 @@
     justify-content: center;
     padding: 4rem;
     width: 50%;
-    background-color: #FAC136;
   }
 
   .text-div h1 {
     color: #364A37;
-  }
-
-  .text-div p {
-    color: white;
+    text-align: left;
   }
 
   .img-div {
@@ -317,7 +322,8 @@
   }
 
   .logo-footer img {
-    width: 20rem;
+    width: 15rem;
+    margin: 1rem;
   }
 
 
