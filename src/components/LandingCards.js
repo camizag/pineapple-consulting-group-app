@@ -36,7 +36,7 @@ export default function LandingCards() {
                                     bottom: 0,
                                     left: 0,
                                     width: '100%',
-                                    height: '100%',
+                                    height: '50%',
                                     bgcolor: 'rgba(0, 0, 0, 0.5)',
                                     color: 'white',
                                     padding: '10px',
@@ -123,22 +123,37 @@ export default function LandingCards() {
                             image="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
                             alt="green iguana"
                             />
-                            <Box
+                            <Box display="flex" flexDirection='column'  justifyContent="center"
                                 sx={{
                                     position: 'absolute',
                                     bottom: 0,
                                     left: 0,
                                     width: '100%',
-                                    bgcolor: 'rgba(0, 0, 0, 0.54)',
+                                    height: '50%',
+                                    bgcolor: 'rgba(0, 0, 0, 0.5)',
                                     color: 'white',
                                     padding: '10px',
                                 }}
-                            >
+                                >
                             <CardContent className='card-txt-container'>
                             <Typography className='card-txt' gutterBottom variant="h5">
                                 Consulting for Strategic Business Planning
                             </Typography>
                             </CardContent>
+
+                            <div className='cards-btn'>
+                            <Button  variant="outlined" size="small"
+                                sx={{
+                                    color: '#FAC136',
+                                    borderColor: '#FAC136',
+                                    '&:hover': {
+                                        borderColor: '#FAC136',
+                                        boxShadow: 'none',},
+                                }}
+                                >
+                                Link
+                            </Button>
+                            </div>
                             </Box>
                     </Link>
                     </Box>
@@ -154,14 +169,14 @@ export default function LandingCards() {
                             image="https://images.unsplash.com/photo-1541535881962-3bb380b08458?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80"
                             alt="green iguana"
                             />
-                            <Box display="flex" flexDirection='column'  justifyContent="space-between" 
+                            <Box display="flex" flexDirection='column'  justifyContent="center"
                                 sx={{
                                     position: 'absolute',
                                     bottom: 0,
                                     left: 0,
                                     width: '100%',
-                                    height: '100%',
-                                    bgcolor: 'rgba(0, 0, 0, 0.3)',
+                                    height: '50%',
+                                    bgcolor: 'rgba(0, 0, 0, 0.5)',
                                     color: 'white',
                                     padding: '10px',
                                 }}
@@ -190,7 +205,7 @@ export default function LandingCards() {
                     </Box>
                     </Card>
 
-                    <Card  className="landing-cards" sx={{boxShadow: 0 , borderRadius: 0}}>
+                    <Card  className="landing-cards" sx={{boxShadow: 0, borderRadius: 0}}>
                     <Box sx={{ position: 'relative' }}> 
                     <Link className='navbar-link' to="/non-profit">
                             <CardMedia
@@ -200,22 +215,37 @@ export default function LandingCards() {
                             image="https://images.unsplash.com/photo-1581578017426-04fbc2b0511e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
                             alt="green iguana"
                             />
-                            <Box
+                            <Box display="flex" flexDirection='column'  justifyContent="center"
                                 sx={{
                                     position: 'absolute',
                                     bottom: 0,
                                     left: 0,
                                     width: '100%',
-                                    bgcolor: 'rgba(0, 0, 0, 0.54)',
+                                    height: '50%',
+                                    bgcolor: 'rgba(0, 0, 0, 0.5)',
                                     color: 'white',
                                     padding: '10px',
                                 }}
-                            >
+                                >
                             <CardContent className='card-txt-container'>
                             <Typography className='card-txt' gutterBottom variant="h5">
                                 Non-profit Work
                             </Typography>
                             </CardContent>
+
+                            <div className='cards-btn'>
+                            <Button  variant="outlined" size="small"
+                                sx={{
+                                    color: '#FAC136',
+                                    borderColor: '#FAC136',
+                                    '&:hover': {
+                                        borderColor: '#FAC136',
+                                        boxShadow: 'none',},
+                                }}
+                                >
+                                Link
+                            </Button>
+                            </div>
                             </Box>
                     </Link>
                     </Box>
