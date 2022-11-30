@@ -203,7 +203,7 @@ export default function LandingCards() {
                             <Box
                                 sx={{
                                     position: 'absolute',
-                                    top: 0,
+                                    bottom: 0,
                                     left: 0,
                                     width: '100%',
                                     bgcolor: 'rgba(0, 0, 0, 0.54)',
