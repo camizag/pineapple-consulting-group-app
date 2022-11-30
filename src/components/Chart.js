@@ -3,7 +3,7 @@ export default function Chart() {
         <>
             <div className="graph-container">
                 <div className="graph-img-container">
-                <img src="https://www.kindpng.com/picc/m/170-1708322_pie-chart-png-transparent-png.png" alt="Pie Chart Png, Transparent Png@kindpng.com"/>
+                <img src="pie-chart.png" alt="Pie Chart Png, Transparent Png@kindpng.com"/>
                 </div>
 
                 <div className="graph-text-container">

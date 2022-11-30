@@ -210,8 +210,9 @@
   .graph-container {
     display: flex;
     height: auto;
-    margin: 6rem;
+    padding: 6rem;
     gap: 10rem;
+    background-color: #FAC136;
   }
 
   .graph-text-container {
