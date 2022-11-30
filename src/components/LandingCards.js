@@ -20,7 +20,7 @@ export default function LandingCards() {
                 
                 <div className='landing-cards-container'>
                     
-                    <Card  className="landing-cards" sx={{boxShadow: 0}}>
+                    <Card  className="landing-cards" sx={{boxShadow: 0 , borderRadius: 0}}>
                     <Box sx={{ position: 'relative' }}> 
                     <Link className='navbar-link' to="/real-state">
                             <CardMedia
@@ -66,7 +66,7 @@ export default function LandingCards() {
                     </Box>
                     </Card>
 
-                    <Card  className="landing-cards" sx={{boxShadow: 0}}>
+                    <Card  className="landing-cards" sx={{boxShadow: 0, borderRadius: 0}}>
                     <Box sx={{ position: 'relative' }}> 
                     <Link className='navbar-link' to="/development">
                             <CardMedia
@@ -113,7 +113,7 @@ export default function LandingCards() {
                     </Box>
                     </Card>
 
-                    <Card className="landing-cards" sx={{boxShadow: 0}}>
+                    <Card className="landing-cards" sx={{boxShadow: 0 , borderRadius: 0}}>
                     <Box sx={{ position: 'relative' }}> 
                     <Link className='navbar-link' to="/business-planning">
                             <CardMedia
@@ -144,7 +144,7 @@ export default function LandingCards() {
                     </Box>
                     </Card>
 
-                    <Card  className="landing-cards" sx={{boxShadow: 0}}>
+                    <Card  className="landing-cards" sx={{boxShadow: 0 , borderRadius: 0}}>
                     <Box sx={{ position: 'relative' }}> 
                     <Link className='navbar-link' to="/professional-development">
                             <CardMedia
@@ -190,7 +190,7 @@ export default function LandingCards() {
                     </Box>
                     </Card>
 
-                    <Card  className="landing-cards" sx={{boxShadow: 0}}>
+                    <Card  className="landing-cards" sx={{boxShadow: 0 , borderRadius: 0}}>
                     <Box sx={{ position: 'relative' }}> 
                     <Link className='navbar-link' to="/non-profit">
                             <CardMedia
