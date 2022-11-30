@@ -208,8 +208,9 @@
   }
 
   .img-accordion-container {
-    overflow: hidden;
-    background-size: cover;
+    display: flex;
+    overflow: none;
+    height: 100%;
   }
 
   .img-accordion-container img {
@@ -268,6 +269,7 @@
   }
 
   .img-div {
+    display: flex;
     overflow: hidden;
     background-size:cover;
   }
