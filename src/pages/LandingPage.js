@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import Accordion from '../components/CompAccordion';
 import Chart from '../components/Chart';
 import TripleDiv from '../components/TripleDiv';
+import ContactSection from '../components/ContactSection';
 
 export default function LandingPage()
 {
@@ -19,6 +20,8 @@ export default function LandingPage()
             </Carousel>
 
             <LandingCards/>
+
+            <ContactSection/>
 
             <Accordion/>
             
