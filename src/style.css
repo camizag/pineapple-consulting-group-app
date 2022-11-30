@@ -117,7 +117,7 @@
     
   }
 
-  /*** Carousel imgs side ***/
+  /** imgs side **/
   .slider-img {
     width: 60%;
     height: 100%;    
@@ -130,7 +130,7 @@
     align-items: flex-start;
   }
   
-  /*** Carousel text side ***/
+  /** text side **/
   .slider-color {
     flex-grow: 0;
     flex-direction: column;
@@ -212,13 +212,21 @@
     height: auto;
     padding: 6rem;
     gap: 10rem;
-    background-color: #FAC136;
+    background-color: #364A37;
   }
 
   .graph-text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .graph-container h1 {
+    color: #FAC136;
+  }
+
+  .graph-container p {
+    color: white;
   }
 
   .graph-img-container img {
@@ -239,11 +247,11 @@
     justify-content: center;
     padding: 4rem;
     width: 50%;
-    background-color: #364A37;
+    background-color: #FAC136;
   }
 
   .text-div h1 {
-    color: #FAC136;
+    color: #364A37;
   }
 
   .text-div p {

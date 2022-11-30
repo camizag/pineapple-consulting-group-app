@@ -5,7 +5,6 @@ export default function TripleDiv() {
 
               <div className="text-div">
                 <h1>Aliquip irure reprehenderit magna laborum ut ut laborum deserunt ad quis nulla ex quis.</h1>
-                <p>Quis enim ea ipsum reprehenderit excepteur dolore laboris mollit adipisicing nostrud ex irure eiusmod et. Tempor culpa aliqua eu et veniam. Fugiat aliquip labore pariatur Lorem ad duis tempor ut anim.</p>
               </div>
 
               <div className="img-div">
