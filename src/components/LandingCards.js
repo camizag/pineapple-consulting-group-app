@@ -30,7 +30,7 @@ export default function LandingCards() {
                             image="https://images.unsplash.com/photo-1585551897231-77fe523c288a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
                             alt="green iguana"
                             />
-                            <Box display="flex" flexDirection='column'  justifyContent="center"
+                            <Box display="flex" flexDirection='column'  justifyContent="center "
                                 sx={{
                                     position: 'absolute',
                                     bottom: 0,
@@ -40,6 +40,7 @@ export default function LandingCards() {
                                     bgcolor: 'rgba(0, 0, 0, 0.5)',
                                     color: 'white',
                                     padding: '10px',
+                                    justifyContent: 'space-between'
                                 }}
                                 >
                             <CardContent className='card-txt-container'>
@@ -86,6 +87,7 @@ export default function LandingCards() {
                                     bgcolor: 'rgba(0, 0, 0, 0.5)',
                                     color: 'white',
                                     padding: '10px',
+                                    justifyContent: 'space-between'
                                 }}
                                 >
                             <CardContent className='card-txt-container'>
@@ -133,6 +135,7 @@ export default function LandingCards() {
                                     bgcolor: 'rgba(0, 0, 0, 0.5)',
                                     color: 'white',
                                     padding: '10px',
+                                    justifyContent: 'space-between'
                                 }}
                                 >
                             <CardContent className='card-txt-container'>
@@ -179,6 +182,7 @@ export default function LandingCards() {
                                     bgcolor: 'rgba(0, 0, 0, 0.5)',
                                     color: 'white',
                                     padding: '10px',
+                                    justifyContent: 'space-between'
                                 }}
                                 >
                             <CardContent className='card-txt-container'>
@@ -225,6 +229,7 @@ export default function LandingCards() {
                                     bgcolor: 'rgba(0, 0, 0, 0.5)',
                                     color: 'white',
                                     padding: '10px',
+                                    justifyContent: 'space-between'
                                 }}
                                 >
                             <CardContent className='card-txt-container'>

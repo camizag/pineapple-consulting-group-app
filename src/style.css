@@ -178,6 +178,7 @@
     align-items: center;
     width: auto;
     height: auto;
+
   }
 
   .landing-title-container p {
@@ -187,7 +188,7 @@
   .cards-btn {
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin: 0.5rem;
   }
 
   /******** Contact section ********/
