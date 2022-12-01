@@ -49,7 +49,7 @@ export default function Contact() {
                     id="outlined-multiline-flexible"
                     label="Comments"
                     multiline
-                    maxRows={5}
+                    maxRows={10}
                     />
             </Box>
 
