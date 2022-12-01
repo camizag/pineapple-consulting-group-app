@@ -155,8 +155,9 @@
 
   /******** Landing Cards ********/
 
+
   .landing-title-container {
-    margin: 5rem;
+    margin: 2rem;
   }
 
   .landing-cards-container {
@@ -188,23 +189,27 @@
   }
 
   /******** Contact section ********/
-  .contact-section-container {
+  .contact-section {
     display: flex;
-    gap: 4rem;
+    flex-direction: row;
     justify-content: space-around;
-    padding: 3rem;
-
-    background-color: #7ea46c;
+    padding: 1rem;
+    background-color: #364A37;
     color: white;
+  }
+
+  .contact-section h1 {
+    color: #FAC136;
   }
 
   .contact-section-btn {
     display: flex;
-    margin: 1rem;  
+    justify-content: center;
+    margin: 2rem;
   }
 
   .contact-btn {
-    width:fit-content;
+    width: auto;
   }
 
   /******** Accordion ********/

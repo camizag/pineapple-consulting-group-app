@@ -3,27 +3,28 @@ import { Button } from '@mui/material';
 
 export default function ContactSection() {
     return (
-        <>
-            <div className='contact-section-container'>
+        <>  
+            <div className='contact-section'>
                 <div className='contact-section-text'>
-                    <h1>Minim ipsum pariatur culpa mollit anim minim veniam velit.</h1>
+                    <h1>Duis excepteur do incididunt cupidatat non aliquip Lorem officia eu.</h1>
+                    <p>Ex mollit nulla nisi labore officia do deserunt velit occaecat anim.</p>
                 </div>
 
                 <div className='contact-section-btn' >
-                <Button  className='contact-btn' display="flex" variant='contained'
+                <Button  className='contact-btn' variant='contained'
                     sx={{
                         color: "#ffffff",
                         backgroundColor: "#FAC136",
-                        ':hover': {
+                         ':hover': {
                         bgcolor: '#FAC136', 
                         color: 'white',
                         }
-                    }}
+                        }}
                     >
                     MAS INFORMACIÓN 
                 </Button>
                 </div>
-            </div>
+            </div>   
         </>
     )
 }
