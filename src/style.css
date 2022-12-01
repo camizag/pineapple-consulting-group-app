@@ -187,6 +187,26 @@
     margin-bottom: 2rem;
   }
 
+  /******** Contact section ********/
+  .contact-section-container {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-around;
+    padding: 3rem;
+
+    background-color: #7ea46c;
+    color: white;
+  }
+
+  .contact-section-btn {
+    display: flex;
+    margin: 1rem;  
+  }
+
+  .contact-btn {
+    width:fit-content;
+  }
+
   /******** Accordion ********/
 
   .compaccordion-container {
@@ -209,7 +229,7 @@
 
   .img-accordion-container {
     display: flex;
-    overflow: none;
+    overflow: hidden;
     height: 100%;
   }
 
