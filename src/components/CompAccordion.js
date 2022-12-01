@@ -28,7 +28,7 @@ export default function CompAccordion() {
                         </AccordionSummary>
 
                         <AccordionDetails>
-                        <Typography sx={{ width: '100%', flexShrink: 0 }}>
+                        <Typography sx={{ width: '100%', flexShrink: 0, textAlign: 'left'}}>
                             Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit
                             amet egestas eros, vitae egestas augue. Duis vel est augue.
                         </Typography>
@@ -45,7 +45,7 @@ export default function CompAccordion() {
                         </AccordionSummary>
 
                         <AccordionDetails>
-                        <Typography sx={{ width: '100%', flexShrink: 0 }}>
+                        <Typography sx={{ width: '100%', flexShrink: 0, textAlign: 'left' }}>
                             Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit
                             amet egestas eros, vitae egestas augue. Duis vel est augue.
                         </Typography>
@@ -62,7 +62,7 @@ export default function CompAccordion() {
                         </AccordionSummary>
 
                         <AccordionDetails>
-                        <Typography sx={{ width: '100%', flexShrink: 0 }}>
+                        <Typography sx={{ width: '100%', flexShrink: 0, textAlign: 'left' }}>
                             Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit
                             amet egestas eros, vitae egestas augue. Duis vel est augue.
                         </Typography>
@@ -79,7 +79,7 @@ export default function CompAccordion() {
                         </AccordionSummary>
 
                         <AccordionDetails>
-                        <Typography sx={{ width: '100%', flexShrink: 0 }}>
+                        <Typography sx={{ width: '100%', flexShrink: 0, textAlign: 'left' }}>
                             Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit
                             amet egestas eros, vitae egestas augue. Duis vel est augue.
                         </Typography>
@@ -96,7 +96,7 @@ export default function CompAccordion() {
                         </AccordionSummary>
 
                         <AccordionDetails>
-                        <Typography sx={{ width: '100%', flexShrink: 0 }}>
+                        <Typography sx={{ width: '100%', flexShrink: 0, textAlign: 'left' }}>
                             Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit
                             amet egestas eros, vitae egestas augue. Duis vel est augue.
                         </Typography>
