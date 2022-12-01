@@ -1,5 +1,10 @@
 import React from 'react';
 
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+
 export default function Footer () {
     return (
         <>
@@ -32,15 +37,20 @@ export default function Footer () {
                         <h3>Follow us!</h3>
 
                         <ul>
-                            <li>Twitter</li>
-                            <li>Instagram</li>
-                            <li>Youtube</li>
+                            <li>
+                                <TwitterIcon/>
+                            </li>
+                            <li>
+                                <FacebookIcon/>
+                            </li>
+                            <li>
+                                <InstagramIcon/>
+                            </li>
+                            <li>
+                                <YouTubeIcon/>
+                            </li>
                         </ul> 
                     </div>
-                    
-
-                    
-
 
                 </div>
 
