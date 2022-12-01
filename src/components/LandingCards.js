@@ -43,7 +43,7 @@ export default function LandingCards() {
                                 }}
                                 >
                             <CardContent className='card-txt-container'>
-                            <Typography className='card-txt' gutterBottom variant="h5">
+                            <Typography className='card-txt' gutterBottom variant="h6">
                                 Real State
                             </Typography>
                             </CardContent>
@@ -89,7 +89,7 @@ export default function LandingCards() {
                                 }}
                                 >
                             <CardContent className='card-txt-container'>
-                            <Typography className='card-txt' gutterBottom variant="h5">
+                            <Typography className='card-txt' gutterBottom variant="h6">
                                 Development
                             </Typography>
                             </CardContent>
@@ -136,7 +136,7 @@ export default function LandingCards() {
                                 }}
                                 >
                             <CardContent className='card-txt-container'>
-                            <Typography className='card-txt' gutterBottom variant="h5">
+                            <Typography className='card-txt' gutterBottom variant="h6">
                                 Consulting for Strategic Business Planning
                             </Typography>
                             </CardContent>
@@ -182,7 +182,7 @@ export default function LandingCards() {
                                 }}
                                 >
                             <CardContent className='card-txt-container'>
-                            <Typography className='card-txt' gutterBottom variant="h5">
+                            <Typography className='card-txt' gutterBottom variant="h6">
                                 Career / Professional Development 
                             </Typography>
                             </CardContent>
@@ -228,7 +228,7 @@ export default function LandingCards() {
                                 }}
                                 >
                             <CardContent className='card-txt-container'>
-                            <Typography className='card-txt' gutterBottom variant="h5">
+                            <Typography className='card-txt' gutterBottom variant="h6">
                                 Non-profit Work
                             </Typography>
                             </CardContent>
