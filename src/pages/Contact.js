@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 
 export default function Contact() {
+   
     return (
         <>  
             <div>
@@ -19,10 +20,37 @@ export default function Contact() {
                 noValidate
                 autoComplete="off"
                 >
-                <TextField id="outlined-basic" label="Name" variant="outlined" />
-                <TextField id="outlined-basic" label="Phone Number" variant="outlined" />
-                <TextField id="outlined-basic" label="Email" variant="outlined" />
-                <TextField id="outlined-basic" label="Address" variant="outlined" />
+                <TextField 
+                    id="outlined-basic" 
+                    label="Name" 
+                    variant="outlined" 
+                    />
+                <TextField 
+                    id="outlined-basic" 
+                    label="Company" 
+                    variant="outlined" 
+                    />
+                <TextField 
+                    id="outlined-basic" 
+                    label="Phone Number" 
+                    variant="outlined" 
+                    />
+                <TextField 
+                    id="outlined-basic"     
+                    label="Email"  
+                    variant="outlined" 
+                    />
+                <TextField 
+                    id="outlined-basic" 
+                    label="Address/City" 
+                    variant="outlined" 
+                    />
+                <TextField
+                    id="outlined-multiline-flexible"
+                    label="Comments"
+                    multiline
+                    maxRows={5}
+                    />
             </Box>
 
         </>
