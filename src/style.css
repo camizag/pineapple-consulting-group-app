@@ -164,6 +164,8 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+    gap: 1rem;
+    margin: 1rem;
   }
 
   .landing-cards {

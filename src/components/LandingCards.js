@@ -14,8 +14,8 @@ export default function LandingCards() {
         <>    
             <div className='landing-container'>
                 <div className='landing-title-container'> 
-                    <h1 className="landing-cards-title">Our Services</h1>
-                    <p>Ipsum deserunt nulla sint deserunt fugiat adipisicing duis do quis. Sunt magna in ea sit eu minim velit excepteur aliquip ea veniam sit. Dolor qui officia non proident ex sint. Sunt veniam cillum ullamco laboris mollit ut laborum proident culpa. Aliquip eiusmod velit labore aute tempor incididunt ut mollit.</p>
+                    <h1 className="landing-cards-title">Ut enim velit amet ad incididunt fugiat culpa ad reprehenderit nulla non tempor ut incididunt.</h1>
+
                 </div> 
                 
                 <div className='landing-cards-container'>
