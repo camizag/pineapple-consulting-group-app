@@ -109,12 +109,16 @@
   }
 
   /******** Carousel ********/
+  /*Carousel container*/
+  .css-ohwg9z {
+    height: 85vh;
+  }
+
   .slider-container {
     display: flex;
     flex-direction: row-reverse;
     height: 85vh;
-    overflow: none;
-    
+    overflow: none;    
   }
 
   /** imgs side **/
@@ -151,6 +155,11 @@
   .btn-container {
     display: flex;
     margin: 3rem;
+  }
+
+  /*Stepper*/
+  .css-1m9128y {
+    visibility: hidden;
   }
 
   /******** Landing Cards ********/
