@@ -157,7 +157,9 @@
 
 
   .landing-title-container {
-    margin: 2rem;
+    background-color: #364A37;
+    padding: 2rem;
+    color: #FAC136;
   }
 
   .landing-cards-container {
@@ -165,7 +167,8 @@
     flex-wrap: nowrap;
     flex-direction: row;
     gap: 1rem;
-    margin: 1rem;
+    padding: 1rem;
+    background-color: #364A37;
   }
 
   .landing-cards {
